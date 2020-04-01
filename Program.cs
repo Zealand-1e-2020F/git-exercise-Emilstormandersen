@@ -10,7 +10,9 @@ namespace GitExercise
             Console.WriteLine("Test");
             Console.WriteLine("NULL POINTER");
 
-            myClass myclass = new myClass();
+            myClass myclass = new myClass("Orhan", "Strandvejen", 88889999);
+
+            
             
 
 
