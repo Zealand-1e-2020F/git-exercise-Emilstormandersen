@@ -8,6 +8,7 @@ namespace GitExercise
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Test");
+            Console.WriteLine("NULL POINTER");
 
             myClass myclass = new myClass();
             
