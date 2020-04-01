@@ -12,8 +12,8 @@ namespace GitExercise
 
             myClass myclass = new myClass("Orhan", "Strandvejen", 88889999);
 
-            
-            
+            System.Console.WriteLine(myclass.GetInfo(myclass));
+
 
 
         }
