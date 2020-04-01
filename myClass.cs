@@ -19,9 +19,9 @@ namespace GitExercise
         public string Adress { get => _adress; set => _adress = value; }
         public string Name { get => _name; set => _name = value; }
 
-        public string GetInfo(myClass myClass)
+        public string GetInfo()
     {
-        return "Myclass hedder " + myClass.Name + " og adressen er " + myClass.Adress + " telefonnumeret er " + myClass.PhoneNumber;
+        return "Myclass hedder " + Name + " og adressen er " + Adress + " telefonnumeret er " + PhoneNumber;
     }
 
 
